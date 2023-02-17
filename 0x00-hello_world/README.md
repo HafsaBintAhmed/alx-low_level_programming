@@ -20,3 +20,4 @@ Example: if the C file is main.c, the output file should be main.s
 3. A script that compiles a C file and creates an executable named cisfun.
 
 The C file name will be saved in the variable 
+4. A C program that prints a line with puts function
