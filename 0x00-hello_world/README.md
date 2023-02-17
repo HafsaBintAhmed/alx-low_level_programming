@@ -21,3 +21,9 @@ Example: if the C file is main.c, the output file should be main.s
 
 The C file name will be saved in the variable 
 4. A C program that prints a line with puts function
+5. A C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
+
+Use the function printf
+You are not allowed to use the function puts
+Your program should return 0
+Your program should compile without warning when using the -Wall gcc option
