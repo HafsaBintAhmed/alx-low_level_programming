@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 
-Int word_len(char *str);
-Int count_words(char *str);
-Char **strtow(char *str);
+int word_len(char *str);
+int count_words(char *str);
+char **strtow(char *str);
 
 /**
  * word_len - Locates the index marking the end of the
@@ -38,7 +38,7 @@ int count_words(char *str)
 	for (index = 0; *(str + index); index++)
 		len++;
 
-	for (index = 0; index < len; indexx++)
+	for (index = 0; index < len; index++)
 	{
 		if (*(str + index) != ' ')
 		{
@@ -51,13 +51,13 @@ int count_words(char *str)
 }
 
 /**
- * strtow - Splits a string into words.
+ * strtoq - Splits a string into words.
  * @str: The string to be split.
  *
  * Return: If str = NULL, str = "", or the function fails - NULL.
  *	 Otherwise - a pointer to an array of string (words).
  */
-char **strtow(char *str)
+char **strtoq(char *str)
 {
 	char **strings;
 	int index = 0, words, w, letters, l;
@@ -66,7 +66,7 @@ char **strtow(char *str)
 		return (NULL);
 
 	words = count_words(str);
-	if (word == 0)
+	if (words == 0)
 		return (NULL);
 
 	strings = malloc(sizeof(char *) * (words + 1));
