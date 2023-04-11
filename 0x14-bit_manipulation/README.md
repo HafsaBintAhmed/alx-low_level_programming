@@ -1,0 +1,3 @@
+0x14. C - Bit manipulation
+
+In this task, it is required to write several C functions related to bit manipulation. The first function should convert a binary number given as a string into an unsigned int. The second function should print the binary representation of a given number. The third function should return the value of a specific bit at a given index, while the fourth function should set the value of a bit to 1 or 0 at a given index. The fifth function should count the number of bits needed to be flipped in order to convert one number into another. The sixth function should check whether the system is using big endian or little endian. Finally, it asked to find a password and save it to a file named 101-password, without any extra spaces or new lines.
